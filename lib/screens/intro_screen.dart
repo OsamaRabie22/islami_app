@@ -66,8 +66,8 @@ class IntroScreen extends StatelessWidget {
         activeColor: AppColors.primary,
         activeSize: Size(18, 7),
         activeShape: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(12),
-          borderSide: BorderSide(color: Colors.transparent)
+            borderRadius: BorderRadius.circular(12),
+            borderSide: BorderSide(color: Colors.transparent)
         ),
       ),
       globalHeader: Image.asset("assets/images/islami_top.png"),
@@ -80,7 +80,7 @@ class IntroScreen extends StatelessWidget {
       onDone: () {
         Navigator.pushNamed(context, HomeScreen.routeName);
       },
-      onSkip: (){
+      onSkip: () {
         Navigator.pushNamed(context, HomeScreen.routeName);
       },
     );
