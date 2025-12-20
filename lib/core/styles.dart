@@ -13,4 +13,10 @@ class AppStyle {
     color: AppColors.primary,
 
   );
+  static TextStyle homeStyle = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.bold,
+    color: Colors.white,
+
+  );
 }
